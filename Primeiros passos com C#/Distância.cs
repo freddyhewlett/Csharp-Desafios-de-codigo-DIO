@@ -12,12 +12,12 @@ Imprima o tempo necessário para a moto Y ficar com a quantidade K de quilômetr
 
 using System;
 
-class Desafio 
+class Distancia
 {
-	static void Main() 
-	{
-		int quilometros = Int32.Parse(Console.ReadLine());
-        	int minutos = quilometros * 2;
-        	Console.WriteLine(minutos + " minutos");
-    	}
+    static void Main() 
+    {
+        int quilometros = Int32.Parse(Console.ReadLine());
+        int minutos = quilometros * 2;
+        Console.WriteLine(minutos + " minutos");
+    }
 }
